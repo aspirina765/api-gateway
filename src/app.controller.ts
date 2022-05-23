@@ -17,7 +17,6 @@ import configuration from './config/configuration';
 import { ConfigService } from "@nestjs/config";
 @Controller('api/v1')
 export class AppController {
-  // constructor(private readonly configService: ConfigService) {}
   private logger = new Logger(AppController.name);
 
   private clientAdminBackend: ClientProxy;
